@@ -1,0 +1,29 @@
+<!DOCTYPE html
+    PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+    <head>
+        <title>Contador de caracteres en AJAX</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <script type="text/javascript" src="https://code.jquery.com/jquery-2.2.4.js"></script>
+        <script type="text/javascript" src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js">
+        </script>
+        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet"
+            integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    </head>
+
+    <body>
+        <div class="container">
+            <div class="header"><h1>Contador de caracteres en AJAX</h1></div>
+            <div>
+                <label for="PLANtexto">Texto</label>
+                <textarea class="form-control" name='PLANtexto' id="characters" maxlength="1220"></textarea>
+            </div>
+            <div>
+                <p><b id="nb_characters">1224</b> caracteres restantes.</p>
+            </div>
+        </div>
+        <div id="nb_characters">
+        </div>
+    </body>
+    <script type="text/javascript" src="ajax_mbstrlen.js"></script>
+</html>
